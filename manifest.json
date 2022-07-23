@@ -1,0 +1,17 @@
+{
+    "manifest_version":3,
+    "version":"1.0",
+    "name": "Babjan's Notes",
+    "action":{
+        "default_popup":"index.html",
+        "defalt_icon":"Bnotes.png"
+    },
+    "icons": {
+        "128": "Bnotes.png"
+
+    },
+    "permissions":[
+        "tabs"
+    ]
+
+}

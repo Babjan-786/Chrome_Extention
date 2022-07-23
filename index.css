@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+input{
+
+    min-width: 400px;
+    height: 45px;
+    box-shadow: 0 8px 16px 0 rgba(17, 231, 246, 0.2), 0 6px 20px 0 rgba(69, 208, 221, 0.19);
+
+}
+.buttons{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    
+
+    
+}
+button{
+    padding: 4px 8px;
+    background-color:white;
+    border-radius: 35%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 1px   gray;
+
+}
+#btn:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+   
+}
+button:hover{
+    background-color: white;
+}
+#tab{
+    margin-left: 10px;
+    background-color: white;
+}
+#tab:hover{
+    background-color: rgb(108, 181, 0);
+    cursor: pointer;
+    color: white;
+}
+#clear{
+    margin-left: 10px;
+    background-color: white;
+}
+#clear:hover{
+    background-color: rgb(243, 9, 36);
+    cursor: pointer;
+    color: white;
+}
+/* .buttons{
+    text-align: center;
+} */
+
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+  border: 2px solid rgb(4, 255, 0);
+  border-radius: 41px;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
